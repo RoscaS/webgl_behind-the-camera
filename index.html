@@ -1,9 +1,9 @@
-<!-- Objet: Infograpgie Projet 1-->
+<!-- Group: B4-->
+<!-- Object: Infography Project 1-->
 <!-- Date: 18 november 2019-->
 <!-- Tristan Seuret-->
 <!-- Nathan Latino-->
 <!-- Sol Rosca-->
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,13 +23,50 @@
 </head>
 
 <body onload="new Project()">
-  <h1 class="title">Behind the camera</h1>
-  <div class="uiContainer">
-    <div id="uiLeft"></div>
-    <div id="uiCenter"></div>
-    <div id="uiRight"></div>
+  <div class="container">
+    <div class="columns">
+      <div class="left-col">
+        <h1>Behind the camera (group B4)</h1>
+        <p>
+          HE-Arc, november 2019 <br>
+          Infography class: WebGL project
+          <br>by
+          <b>Tristan Seuret</b>,
+          <b>Nathan Latino</b> and
+          <b>Sol Rosca</b>
+        </p>
+      </div>
+      <div class="right-col">
+        
+
+        
+        <div class="uiContainer">
+          <div id="uiLeft"></div>
+          <div id="uiCenter"></div>
+          <div id="uiRight"></div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <p class="description">
+      This project allows the user to visualize the camera's
+      <a href="https://en.wikipedia.org/wiki/Frustum">frustrum</a>.
+      By using a technique allowing us to split a view in differentes parts,
+      two scenes using differents camera are created. The scene on the left
+      is what the camera sees and the one on the right is another camera
+      seeing the first camera and it's frustrum.
+    </p>
+    
   </div>
   <canvas id="canvas"></canvas>
   <div id="scenes"></div>
+  
+  <footer><b>References:</b>
+    <a href="http://webgl3d.info/">WebGL.info</a>,
+    <a href="https://www.tutorialspoint.com/webgl">tutorialspoint.com</a>,
+    <a href="https://webglfundamentals.org/">webglfundamentals.org</a>,
+    <a href="https://riptutorial.com/fr/webgl">riptutorial.com</a>
+  </footer>
 </body>
 </html>

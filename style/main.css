@@ -1,9 +1,46 @@
+/*Group: B4*/
+/*Object: Infography Project 1*/
+/*Date: 18 november 2019*/
+/*Tristan Seuret*/
+/*Nathan Latino*/
+/*Sol Rosca*/
+
 body {
     margin: 0;
 }
 
-.title {
+.container {
     margin-left: 30px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.columns {
+    display: flex;
+}
+.left-col {
+    width: 645px;
+}
+
+.right-col {
+}
+
+.description {
+    margin-top: 10px;
+    width: 500px;
 }
 
 #scenes {
@@ -35,8 +72,10 @@ body {
     height: 600px;
 }
 
-.uiContainer {
+.uiContainer {;
+    position: absolute;
     display: flex;
-    margin: 30px 30px;
+    margin-top: 60px;
+    margin-bottom: 10px;
 }
 

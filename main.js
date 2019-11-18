@@ -1,8 +1,9 @@
- // Objet: Infograpgie Projet 1
- // Date: 18 november 2019
- // Tristan Seuret
- // Nathan Latino
- // Sol Rosca
+// Group: B4
+// Object: Infography Project 1
+// Date: 18 november 2019
+// Tristan Seuret
+// Nathan Latino
+// Sol Rosca
 
 /**
  * This project allows the user to visualize the camera's frustrum.

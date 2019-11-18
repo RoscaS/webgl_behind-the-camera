@@ -1,4 +1,5 @@
-// Objet: Infograpgie Projet 1
+// Group: B4
+// Object: Infography Project 1
 // Date: 18 november 2019
 // Tristan Seuret
 // Nathan Latino
