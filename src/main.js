@@ -242,7 +242,11 @@ class Project {
       right_fov: 60,
       quality: false,
 
-      cam_X: -100,
+      // cam_X: -100,
+      // cam_Y: 0,
+      // cam_Z: -300,
+
+      cam_X: 0,
       cam_Y: 0,
       cam_Z: -300,
 
